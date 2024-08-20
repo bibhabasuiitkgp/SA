@@ -133,14 +133,15 @@ const Carousal = () => {
                                 <div className="carousel-container">
                                     <div className="container">
                                         <h2 className="animate__animated animate__fadeInDown">
-                                            Join the Mission: Be a Space Ambassador
+                                            Join the Mission: Be a Student Ambassador
                                         </h2>
                                         <p className="animate__animated animate__fadeInUp" style={{ fontSize: '17px' }}>
-                                            Take the lead in your college and become a part of the National Students Space Challenge. As a Space Ambassador, you'll be at the forefront of the mission, inspiring and recruiting your peers to participate in one of the most exciting space-themed events in the country. This is your chance to connect with like-minded enthusiasts, make a difference, and represent your institution on a national stage.
+                                            Take the lead in your college and become a part of the National Students' Space Challenge. As a Student Ambassador, you'll be at the forefront of the fest, inspiring and recruiting your peers to participate in one of the most exciting space-themed events in the country. This is your chance to connect with like-minded enthusiasts, make a difference, and represent your institution on a national stage.
                                         </p>
                                         <a
                                             href="#form"
                                             className="btn-get-started scrollto animate__animated animate__fadeInUp"
+                                            style={{ backgroundColor: '#674188' }}
                                         >
                                             Register to Join us
                                         </a>
@@ -152,7 +153,8 @@ const Carousal = () => {
                                 className="carousel-item"
                                 style={{
                                     backgroundImage:
-                                              'url(https://img.freepik.com/premium-photo/glowing-spaceship-orbits-planet-starry-galaxy-generated-by-ai_1038396-45.jpg)'                                }}
+                                        'url(https://img.freepik.com/premium-photo/glowing-spaceship-orbits-planet-starry-galaxy-generated-by-ai_1038396-45.jpg)'
+                                }}
                             >
                                 <div className="carousel-container">
                                     <div className="container">
@@ -160,11 +162,12 @@ const Carousal = () => {
                                             Why Become an Ambassador? Unlock Exclusive Opportunities
                                         </h2>
                                         <p className="animate__animated animate__fadeInUp">
-                                            As an ambassador, you’ll gain exclusive access to advanced workshops, seminars, and networking opportunities with space industry professionals. Not only will you enhance your leadership and organizational skills, but you'll also earn a prestigious certificate of recognition that will stand out on your resume. Plus, you'll be part of a vibrant community of space enthusiasts who share your passion for exploration and innovation
+                                            As an ambassador, you’ll gain exclusive access to advanced workshops, seminars, and networking opportunities with space industry professionals. Not only will you enhance your leadership and organizational skills, but you'll also earn a prestigious certificate of recognition that will stand out on your resume. Plus, you'll be part of a vibrant community of space enthusiasts who share your passion for exploration and innovation.
                                         </p>
                                         <a
                                             href="#about"
                                             className="btn-get-started scrollto animate__animated animate__fadeInUp"
+                                            style={{ backgroundColor: '#674188' }}
                                         >
                                             Learn More
                                         </a>
@@ -185,11 +188,12 @@ const Carousal = () => {
                                             Ambassador's Role: Lead and Inspire
                                         </h2>
                                         <p className="animate__animated animate__fadeInUp">
-                                            As the official representative of your college, your role as an ambassador is crucial. You'll be responsible for spreading the word about the National Students Space Challenge, organizing local events like, and rallying students to participate. Your leadership will help shape the future of space exploration by inspiring the next generation of scientists, engineers, and innovators. This is your opportunity to make a lasting impact on your college community while gaining invaluable experience in event management and communication
+                                            As the official representative of your college, your role as an ambassador is crucial. You'll be responsible for spreading the word about the National Students' Space Challenge, organizing local events and rallying students to participate. Your leadership will help shape the future of space exploration by inspiring the next generation of scientists, engineers, and innovators. This is your opportunity to make a lasting impact on your college community while gaining invaluable experience in event management and communication.
                                         </p>
                                         <a
                                             href="#featured-services"
                                             className="btn-get-started scrollto animate__animated animate__fadeInUp"
+                                            style={{ backgroundColor: '#674188' }}
                                         >
                                             STAC
                                         </a>

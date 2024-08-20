@@ -11,7 +11,7 @@ const AboutSection = () => {
                 <header className="section-header">
                     <h3>About NSSC</h3>
                     <p>
-                        Established in 2011, the National Students' Space Challenge (NSSC) is the biggest astro-tech fest organized by the Space Technology Students' Society (spAts), a student body under Kalpana Chawla Space Technology Cell, which is the official contact point of ISRO at IIT Kharagpur. NSSC has grown exponentially over the past 11 years including various competitions like autonomous and manual bot making, space quizzes, case studies, paper presentations and astrophotography to name a few. Along with these events NSSC has tried to include various guest lectures, exhibitions, and workshops taken by various dignitaries dedicated to space science and technology.
+                        Established in 2011, the National Students' Space Challenge (NSSC) is the biggest astro-tech fest organized by the Space Technology Students' Society (spAts), a student body under Kalpana Chawla Space Technology Cell, which is the official contact point of ISRO at IIT Kharagpur. NSSC has grown exponentially over the past 12 years including various competitions like autonomous and manual bot making, space quizzes, case studies, paper presentations and astrophotography to name a few. Along with these events, NSSC has tried to include various guest lectures, exhibitions, and workshops taken by various dignitaries dedicated to space science and technology.
                     </p>
                 </header>
 
@@ -25,7 +25,7 @@ const AboutSection = () => {
                                     alt=""
                                     className="img-fluid"
                                 />
-                                <div className="icon"><FaToolbox size={30} /></div>
+                                <div className="icon" style={{ backgroundColor: "#674188" }}><FaToolbox size={30} color='white' /></div>
                             </div>
                             <h2 className="title"><a href="#">Get Exciting goodies</a></h2>
                             <p>
@@ -42,7 +42,7 @@ const AboutSection = () => {
                                     alt=""
                                     className="img-fluid"
                                 />
-                                <div className="icon"><FaRegNewspaper size={30} /></div>
+                                <div className="icon" style={{ backgroundColor: "#674188" }}><FaRegNewspaper size={30} color='white' /></div>
                             </div>
                             <h2 className="title"><a href="#">Certificates</a></h2>
                             <p>
@@ -60,7 +60,7 @@ const AboutSection = () => {
                                     alt=""
                                     className="img-fluid"
                                 />
-                                <div className="icon"><FaTshirt size={30} /></div>
+                                <div className="icon" style={{ backgroundColor: "#674188" }}><FaTshirt size={30} color='white' /></div>
                             </div>
                             <h2 className="title"><a href="#">Free Merchandise</a></h2>
                             <p>

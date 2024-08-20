@@ -50,11 +50,10 @@ function FormExample() {
         style={{ padding: "40px" }}
       >
         <Row className="mb-3">
-          <p
-            style={{ fontSize: "40px", color: "green", fontFamily: "cursive" }}
-          >
-            Registration Form
-          </p>
+          <header className="section-header">
+            <h3>Registration</h3>
+          </header>
+
           <Form.Group as={Col} md="4" controlId="validationCustom01">
             <Form.Label>First name</Form.Label>
             <Form.Control
@@ -156,10 +155,10 @@ function FormExample() {
             </Form.Control.Feedback>
           </Form.Group>
           <Form.Group as={Col} md="6" controlId="validationCustom07">
-            <Form.Label>Level</Form.Label>
+            <Form.Label>Year of Study</Form.Label>
             <Form.Control
               type="text"
-              placeholder="Level"
+              placeholder="Year of study"
               name="level"
               value={formData.level}
               onChange={handleChange}
