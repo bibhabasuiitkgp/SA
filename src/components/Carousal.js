@@ -127,7 +127,7 @@ const Carousal = () => {
                                 className="carousel-item active"
                                 style={{
                                     backgroundImage:
-                                        'url(/OIP.jpeg)',
+                                        'url(https://img.freepik.com/premium-photo/glowing-spaceship-orbits-planet-starry-galaxy-generated-by-ai_1038396-45.jpg)',
                                 }}
                             >
                                 <div className="carousel-container">
@@ -152,7 +152,7 @@ const Carousal = () => {
                                 className="carousel-item"
                                 style={{
                                     backgroundImage:
-                                              'url(/OIP.jpeg)'                                }}
+                                              'url(https://img.freepik.com/premium-photo/glowing-spaceship-orbits-planet-starry-galaxy-generated-by-ai_1038396-45.jpg)'                                }}
                             >
                                 <div className="carousel-container">
                                     <div className="container">
@@ -176,7 +176,7 @@ const Carousal = () => {
                                 className="carousel-item"
                                 style={{
                                     backgroundImage:
-                                        'url(/OIP.jpeg)',
+                                        'url(https://img.freepik.com/premium-photo/glowing-spaceship-orbits-planet-starry-galaxy-generated-by-ai_1038396-45.jpg)',
                                 }}
                             >
                                 <div className="carousel-container">

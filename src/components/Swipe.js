@@ -18,11 +18,11 @@ const ClientsSection = () => {
                     slidesPerGroup={3}  // Add this line to ensure the slider moves one slide at a time
                     autoplay={{ delay: 3000, disableOnInteraction: false }}
                     pagination={{ clickable: true }}
-                    // breakpoints={{
-                    //     640: { slidesPerView: 2, spaceBetween: 20, slidesPerGroup: 1 }, // Adjusts for 2 slides visible, moving one at a time
-                    //     768: { slidesPerView: 4, spaceBetween: 40, slidesPerGroup: 1 }, // Adjusts for 4 slides visible, moving one at a time
-                    //     1024: { slidesPerView: 6, spaceBetween: 50, slidesPerGroup: 1 }, // Adjusts for 6 slides visible, moving one at a time
-                    // }}
+                    breakpoints={{
+                        640: { slidesPerView: 2, spaceBetween: 20, slidesPerGroup: 1 }, // Adjusts for 2 slides visible, moving one at a time
+                        768: { slidesPerView: 4, spaceBetween: 40, slidesPerGroup: 1 }, // Adjusts for 4 slides visible, moving one at a time
+                        1024: { slidesPerView: 6, spaceBetween: 50, slidesPerGroup: 1 }, // Adjusts for 6 slides visible, moving one at a time
+                    }}
                     className="clients-slider"
                 >
                     <SwiperSlide><img src="23-c.png" className="img-fluid" alt="Client 1" height={150}/></SwiperSlide>
