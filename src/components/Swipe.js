@@ -8,7 +8,7 @@ const ClientsSection = () => {
             <div className="container" data-aos="zoom-in">
 
                 <header className="section-header">
-                    <h3>Our Clients</h3>
+                    <h3>Our Previous Sponsors</h3>
                 </header>
 
                 <Swiper
@@ -25,15 +25,12 @@ const ClientsSection = () => {
                     // }}
                     className="clients-slider"
                 >
-                    <SwiperSlide><img src="https://cdn.jsdelivr.net/gh/linuxguist/bizpage@main/assets/img/hero-carousel/7.jpg" className="img-fluid" alt="Client 1" /></SwiperSlide>
-                    <SwiperSlide><img src="assets/img/clients/client-2.png" className="img-fluid" alt="Client 2" /></SwiperSlide>
-                    <SwiperSlide><img src="https://cdn.jsdelivr.net/gh/linuxguist/bizpage@main/assets/img/hero-carousel/7.jpg" className="img-fluid" alt="Client 3" /></SwiperSlide>
-                    <SwiperSlide><img src="assets/img/clients/client-4.png" className="img-fluid" alt="Client 4" /></SwiperSlide>
-                    <SwiperSlide><img src="assets/img/clients/client-5.png" className="img-fluid" alt="Client 5" /></SwiperSlide>
-                    <SwiperSlide><img src="assets/img/clients/client-6.png" className="img-fluid" alt="Client 6" /></SwiperSlide>
-                    <SwiperSlide><img src="https://cdn.jsdelivr.net/gh/linuxguist/bizpage@main/assets/img/hero-carousel/7.jpg" className="img-fluid" alt="Client 7" /></SwiperSlide>
-                    <SwiperSlide><img src="assets/img/clients/client-8.png" className="img-fluid" alt="Client 8" /></SwiperSlide>
-                    <SwiperSlide><img src="assets/img/clients/client-8.png" className="img-fluid" alt="Client 8" /></SwiperSlide>
+                    <SwiperSlide><img src="23-c.png" className="img-fluid" alt="Client 1" height={150}/></SwiperSlide>
+                    <SwiperSlide><img src="23-t.png" alt="Client 2" height={150}/></SwiperSlide>
+                    <SwiperSlide><img src="22-m.jpg" className="img-fluid" alt="Client 3" height={150}/></SwiperSlide>
+                    <SwiperSlide><img src="22-p.png" className="img-fluid" alt="Client 4" height={150}/></SwiperSlide>
+                    <SwiperSlide><img src="21-t.png" className="img-fluid" alt="Client 5" height={150}/></SwiperSlide>
+                    <SwiperSlide><img src="21-p.png" className="img-fluid" alt="Client 6" height={150}/></SwiperSlide>
                 </Swiper>
 
             </div>

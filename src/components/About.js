@@ -21,7 +21,7 @@ const AboutSection = () => {
                         <div className="about-col">
                             <div className="img">
                                 <img
-                                    src="https://cdn.jsdelivr.net/gh/linuxguist/bizpage@main/assets/img/about-mission.jpg"
+                                    src="/good.png"
                                     alt=""
                                     className="img-fluid"
                                 />
@@ -38,7 +38,7 @@ const AboutSection = () => {
                         <div className="about-col">
                             <div className="img">
                                 <img
-                                    src="https://cdn.jsdelivr.net/gh/linuxguist/bizpage@main/assets/img/about-plan.jpg"
+                                    src="cert3.png"
                                     alt=""
                                     className="img-fluid"
                                 />
@@ -56,7 +56,7 @@ const AboutSection = () => {
                         <div className="about-col">
                             <div className="img">
                                 <img
-                                    src="https://cdn.jsdelivr.net/gh/linuxguist/bizpage@main/assets/img/about-vision.jpg"
+                                    src="merch.png"
                                     alt=""
                                     className="img-fluid"
                                 />
