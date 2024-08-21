@@ -1,0 +1,14 @@
+@media (max-width: 500px) {
+    .carousel-container p {
+        font-size: 10px;
+        display: none;
+    }
+}
+
+
+
+@media (max-width: 500px) {
+    body {
+        overflow-x: hidden;
+    }
+}

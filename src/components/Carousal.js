@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet';
+import "./styles.css"
 
 const Carousal = () => {
     useEffect(() => {
@@ -154,7 +155,7 @@ const Carousal = () => {
                                         <h2 className="animate__animated animate__fadeInDown">
                                             Why Become an Ambassador? Unlock Exclusive Opportunities
                                         </h2>
-                                        <p className="animate__animated animate__fadeInUp">
+                                        <p className="animate__animated animate__fadeInUp" style={{ fontSize: '17px', padding: "2px" }}>
                                             As an ambassador, you’ll gain exclusive access to advanced workshops, seminars, and networking opportunities with space industry professionals. Not only will you enhance your leadership and organizational skills, but you'll also earn a prestigious certificate of recognition that will stand out on your resume. Plus, you'll be part of a vibrant community of space enthusiasts who share your passion for exploration and innovation.
                                         </p>
                                         <a
@@ -180,7 +181,7 @@ const Carousal = () => {
                                         <h2 className="animate__animated animate__fadeInDown">
                                             Ambassador's Role: Lead and Inspire
                                         </h2>
-                                        <p className="animate__animated animate__fadeInUp">
+                                        <p className="animate__animated animate__fadeInUp" style={{ fontSize: '17px', padding: "2px" }}>
                                             As the official representative of your college, your role as an ambassador is crucial. You'll be responsible for spreading the word about the National Students' Space Challenge, organizing local events and rallying students to participate. Your leadership will help shape the future of space exploration by inspiring the next generation of scientists, engineers, and innovators. This is your opportunity to make a lasting impact on your college community while gaining invaluable experience in event management and communication.
                                         </p>
                                         <a
@@ -194,7 +195,31 @@ const Carousal = () => {
                                 </div>
                             </div>
                         </div>
+                        <a
+                            className="carousel-control-prev"
+                            href="#heroCarousel"
+                            role="button"
+                            data-bs-slide="prev"
+                        >
+                            <span
+                                className="carousel-control-prev-icon bi bi-chevron-left"
+                                aria-hidden="true"
+                            ></span>
+                            <span className="visually-hidden">Previous</span>
+                        </a>
 
+                        <a
+                            className="carousel-control-next"
+                            href="#heroCarousel"
+                            role="button"
+                            data-bs-slide="next"
+                        >
+                            <span
+                                className="carousel-control-next-icon bi bi-chevron-right"
+                                aria-hidden="true"
+                            ></span>
+                            <span className="visually-hidden">Next</span>
+                        </a>
 
                     </div>
                 </div>
