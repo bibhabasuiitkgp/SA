@@ -37,7 +37,7 @@ const FactSection = () => {
                             className="purecounter"
                             style={{ color: "#674188" }}
                         ></span>
-                        <p style={{ fontSize: '20px', color: "#674188" }}>Total Registration</p>
+                        <p style={{ fontSize: '20px', color: "#674188" }}>Total Registrations</p>
                     </div>
 
                     <div className="col-lg-3 col-6 text-center">
@@ -48,7 +48,7 @@ const FactSection = () => {
                             className="purecounter"
                             style={{ color: "#674188" }}
                         ></span>
-                        <p style={{ fontSize: '20px', color: "#674188" }}>STAC</p>
+                        <p style={{ fontSize: '20px', color: "#674188" }}>STACs</p>
                     </div>
 
                     <div className="col-lg-3 col-6 text-center">

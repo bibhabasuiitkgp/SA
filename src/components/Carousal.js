@@ -25,7 +25,7 @@ const Carousal = () => {
             <Helmet>
                 <meta charSet="utf-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                <title>BizPage Bootstrap Template</title>
+                <title>Student Ambassador | NSSC</title>
 
                 {/* Google Fonts */}
                 <link
@@ -87,9 +87,8 @@ const Carousal = () => {
                     <div className="row justify-content-center align-items-center">
                         <div className="col-xl-11 d-flex align-items-center justify-content-between">
                             <h1 className="logo">
-                                <a href="index.html">Student Ambassador</a>
+                                <a href="index.html" style={{ fontSize: "24px" }}>NSSC | IIT Kharagpur </a>
                             </h1>
-
                             <nav id="navbar" className="navbar">
                                 <ul>
                                     <li>
@@ -99,13 +98,7 @@ const Carousal = () => {
                                     </li>
                                 </ul>
                                 <ul>
-                                    <li>
-                                        <a className="nav-link" style={{ fontSize: '20px' }} href="#">
-                                            STAC
-                                        </a>
-                                    </li>
                                 </ul>
-                                {/* <i className="bi bi-list mobile-nav-toggle"></i> */}
                             </nav>
                         </div>
                     </div>
@@ -122,7 +115,7 @@ const Carousal = () => {
                     >
                         <ol id="hero-carousel-indicators" className="carousel-indicators"></ol>
 
-                        <div className="carousel-inner" role="listbox">
+                        <div className="carousel-inner" role="listbox" >
                             <div
                                 className="carousel-item active"
                                 style={{
@@ -135,7 +128,7 @@ const Carousal = () => {
                                         <h2 className="animate__animated animate__fadeInDown">
                                             Join the Mission: Be a Student Ambassador
                                         </h2>
-                                        <p className="animate__animated animate__fadeInUp" style={{ fontSize: '17px' }}>
+                                        <p className="animate__animated animate__fadeInUp" style={{ fontSize: '17px', padding: "2px" }}>
                                             Take the lead in your college and become a part of the National Students' Space Challenge. As a Student Ambassador, you'll be at the forefront of the fest, inspiring and recruiting your peers to participate in one of the most exciting space-themed events in the country. This is your chance to connect with like-minded enthusiasts, make a difference, and represent your institution on a national stage.
                                         </p>
                                         <a
@@ -202,31 +195,7 @@ const Carousal = () => {
                             </div>
                         </div>
 
-                        <a
-                            className="carousel-control-prev"
-                            href="#heroCarousel"
-                            role="button"
-                            data-bs-slide="prev"
-                        >
-                            <span
-                                className="carousel-control-prev-icon bi bi-chevron-left"
-                                aria-hidden="true"
-                            ></span>
-                            <span className="visually-hidden">Previous</span>
-                        </a>
 
-                        <a
-                            className="carousel-control-next"
-                            href="#heroCarousel"
-                            role="button"
-                            data-bs-slide="next"
-                        >
-                            <span
-                                className="carousel-control-next-icon bi bi-chevron-right"
-                                aria-hidden="true"
-                            ></span>
-                            <span className="visually-hidden">Next</span>
-                        </a>
                     </div>
                 </div>
             </section>
